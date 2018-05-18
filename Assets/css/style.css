@@ -18,7 +18,7 @@ Img{
 }
   /*Creating page*/
   #wrapper {
-    background: white;
+    background:#FCF5C7;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -91,6 +91,14 @@ Img{
   .dropdown:hover .dropdown-content {
       display: block;
   }
+   #contact{
+     height:5px;
+   }
+  .grid_main{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+  }
 
   footer{
   padding-top: 30px;
@@ -100,8 +108,22 @@ Img{
   width: 100%;
   height: 40px;
   text-align: center;
-
-
 }
 
-/*Responsive Styles*/
+/*Responsive layout*/
+@media (max-width:320px) {
+  .grid_main{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+  }
+img {
+  width: 200px;
+  height: 200px;
+}
+
+#wrapper {
+    width: 800px;
+    margin-left:170px;
+    display: block;
+ }
