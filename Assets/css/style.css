@@ -35,7 +35,7 @@ Img{
 /*Navbar properties and extra styling*/
   .navbar {
       overflow: hidden;
-      background-color: #32192d;
+      background-color: #333;
       font-family: Arial, Helvetica, sans-serif;
 	    height: 50px;
   }
