@@ -43,7 +43,7 @@ Img{
 }
 
 #wrapper {
-    width: 1200px;
+    width: 100%;
     margin-left:170px;
     position: relative;
     padding-top: 90px;
@@ -88,8 +88,9 @@ img {
     display: block;
  } */
 
- @media (max-width:1326px) {
+ @media (max-width:1520px) {
     #wrapper{
+      width: 50px;
       margin-left: 50px;
     }
 
@@ -100,7 +101,24 @@ img {
 
  @media (min-width:375px) {
     #wrapper{
-      width: 1100px;
-      margin-left: 100px;
+      width: 75%;
+      margin-left: 12%;
+    }
+
+    .navbar{
+      width: 300px;
+
     }
  }
+
+ @media (min-width:300px) {
+    #wrapper{
+      width: 75%;
+      margin-left: 12%;
+    }
+
+    .navbar{
+      width: 590px;
+    }
+
+  
