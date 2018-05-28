@@ -99,26 +99,13 @@ img {
     }
  }
 
- @media (min-width:375px) {
+
+ @media (min-width:300px){
     #wrapper{
       width: 75%;
       margin-left: 12%;
     }
 
     .navbar{
-      width: 300px;
-
+      width: 1159px;
     }
- }
-
- @media (min-width:300px) {
-    #wrapper{
-      width: 75%;
-      margin-left: 12%;
-    }
-
-    .navbar{
-      width: 590px;
-    }
-
-  

@@ -29,22 +29,34 @@
 
     <form>
       <table>
-  				<tr><td><label for="Name"><b>Your full name</b></label></td><td><input type="text" placeholder="Sam Winchester" name="First Name" required></td></tr>
-  				<tr><td><label for="Name"><b>Email</b></label></td><td><input type="text" placeholder="sam@mail.com" name="Email" required></td></tr>
-  				<tr><td><label for="Name"><b>cell number</b></label></td><td><input type="text" placeholder="555-555-555" name="Number" required></td></tr>
-          <tr><td><label><b>Categories</b></label></td> <td><select id="" name=""  class="title4" required >
-                                                             <option value="" selected="selected" class="title4" disabled="disabled" placeholder="Must Select" required>Select One</option>
-                                                             <option value="" >General</option>
-                                                             <option value="" >Camping</option>
-                                                             <option value="" >Hiking</option>
-                                                             <option value="" >Fishing</option>
-                                                             <option value="" >Rock Climbing</option>
-                                                             </select></tr>
-          <tr><td><label><b>Enquiries</b></label></td><td><textarea name="Optional" maxlength="50000" rows="3px" cols="40px"></textarea></td></tr>
-          <tr><td><button type="submit" formaction="http://vantageid.com/wp-content/uploads/2017/04/Submission-Successful.jpg">Submit</button></td></tr>
+        <tr><td><label for="Name"><b>Your full name</b></label></td><td><input type="text" placeholder="Sam Winchester" name="First Name" id="firstName" required></td></tr>
+        <tr><td><label for="Name"><b>Email</b></label></td><td><input type="text" placeholder="sam@mail.com" name="Email" required></td></tr>
+        <tr><td><label for="Name"><b>cell number</b></label></td><td><input type="text" placeholder="555-555-555" name="Number" required></td></tr>
+        <tr><td><label><b>Categories</b></label></td> <td><select id="" name=""  required >
+          <option value="" selected="selected" disabled="disabled" placeholder="Must Select" required>Select One</option>
+          <option value="" >General</option>
+          <option value="" >Camping</option>
+          <option value="" >Hiking</option>
+          <option value="" >Fishing</option>
+          <option value="" >Rock Climbing</option>
+        </select></tr>
+        <tr><td><label><b>Enquiries</b></label></td><td><textarea name="Optional" maxlength="50000" rows="3px" cols="40px"></textarea></td></tr>
+        <tr><td><button type="submit" onclick="myFunction()">Submit</button></td></tr>
 
 
-    </form>
-  </div>
-</body>
-</html>
+      </form>
+    </div>
+    <script type="text/javascript">
+    var firstName=document.getElementById("firstName").value;
+    function myFunction(){
+      if(true){
+
+      }
+
+      else{
+        alert("Thank you for sumbitting");
+      }
+    }
+   </script>
+  </body>
+ </html>
