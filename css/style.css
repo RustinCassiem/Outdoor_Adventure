@@ -6,12 +6,13 @@ body {
 }
 
 
-h1{
+.h1{
   text-decoration: underline;
+
 }
 
-a{
-  color:black;
+.h1 a{
+  ;
 }
 /*main header on home page */
 .Mainhead{
@@ -29,8 +30,8 @@ p{
 
 /*Images main settings*/
  Img{
-  width:540px ;
-  height:400px ;
+  width:49% ;
+  height:40% ;
   border:1px solid black;
 }
 
