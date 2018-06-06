@@ -4,47 +4,39 @@
   <meta charset="utf-8">
   <title></title>
   <link rel="stylesheet" href="css/contact.css" type="text/css">
-  <link rel="stylesheet" href="css/dropbox.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <div id="wrapper">
     <div class="navbar">
       <a href="index.html">Home</a>
-      <div class="dropdown">
-        <button class="dropbtn">Category
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="Hiking.html" >Hiking</a>
-          <a href="Rock_Climbing.html">Rock Climbing</a>
-          <a href="Fishing.html">Fishing</a>
-          <a href="Camping.html">Camping</a>
-        </div>
-      </div>
       <a href="Gallery.html">Gallery</a>
       <a href="Contact.html">Contact Us</a>
     </div>
     <h1>Contact Form</h1>
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-    <form>
-      <table>
-        <tr><td><label for="Name"><b>Your full name</b></label></td><td><input type="text" placeholder="Sam Winchester" name="First Name" id="firstName" required></td></tr>
-        <tr><td><label for="Name"><b>Email</b></label></td><td><input type="text" placeholder="sam@mail.com" name="Email" required></td></tr>
-        <tr><td><label for="Name"><b>cell number</b></label></td><td><input type="text" placeholder="555-555-555" name="Number" required></td></tr>
-        <tr><td><label><b>Categories</b></label></td> <td><select id="" name=""  required >
-          <option value="" selected="selected" disabled="disabled" placeholder="Must Select" required>Select One</option>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="Category">Country</label>
+        <select id="Category" name="Category">
           <option value="" >General</option>
           <option value="" >Camping</option>
           <option value="" >Hiking</option>
           <option value="" >Fishing</option>
           <option value="" >Rock Climbing</option>
-        </select></tr>
-        <tr><td><label><b>Enquiries</b></label></td><td><textarea name="Optional" maxlength="50000" rows="3px" cols="40px"></textarea></td></tr>
-        <tr><td><button type="submit" onclick="myFunction()">Submit</button></td></tr>
+        </select>
 
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Comment" style="height:200px"></textarea>
 
+        <input type="submit" value="Submit">
       </form>
+    </div>
+
     </div>
     <script type="text/javascript">
     var firstName=document.getElementById("firstName").value;
