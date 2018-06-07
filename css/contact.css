@@ -1,9 +1,7 @@
-body {font-family: Arial, Helvetica, sans-serif;}
-
 input[type=text], select, textarea {
-    width: 100%;
+    width: 80%;
     padding: 12px;
-    border: 1px solid rgba(255, 235, 59, 0.3) ;
+    border: 1px solid rgba(191, 245, 91, 0.753) ;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
@@ -12,7 +10,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: rgb(64, 211, 64);
     color: white;
     padding: 12px 20px;
     border: none;
@@ -21,11 +19,15 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color:rgba(255, 235, 59, 0.3) ;
+    background-color:rgba(140, 206, 53, 0.808) ;
 }
 
-.container {
-    border-radius: 5px;
-    background-color: #FCF5C7;
-    padding: 20px;
+form{
+  margin-left: 25%;
+}
+
+button{
+  margin-left: 280%;
+  width:80%;
+  height:120%;
 }

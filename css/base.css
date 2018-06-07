@@ -2,26 +2,24 @@
 body {
   background-image: url("http://outdoorafro.com/wp-content/uploads/2017/04/appalachian-trail.jpg");
   background-size: cover;
-  background-repeat: no-repeat, repeat;
+  height: 100%;
 }
 
 
 .h1{
-  color: #6AD82F;
+  color: black;
   text-decoration: underline;
   font-weight: 1100px;
 }
 
-.h1:hover{
-  color: #ADCEAB;
- }
+.h1 a:hover{
+  background-color: #202A2D; }
 
 /*main header on home page */
 .Mainhead{
   font-size:40px;
-  color: #23871D;
+  color: #3DA35D;
   text-align: center;
-  text-decoration: underline;
 }
  .centre{
    text-align: center;
@@ -60,8 +58,9 @@ img:hover {
     padding-right: 15px;
 }
 #wrapper {
-    width: 98%;
-    margin-left:170px;
+    width: 50%;
+    height: 60%;
+    margin-left:350px;
     position: relative;
     padding-top: 90px;
     display: block;
@@ -76,7 +75,7 @@ img:hover {
      background-color: #333;
      font-family: Arial, Helvetica, sans-serif;
      height: 45px;
-     width: 60%;
+     width: 104%;
      margin-top: -90px;
      margin-left: -15px; }
 
@@ -104,7 +103,6 @@ img:hover {
   text-align: center;
 }
 
-/* Responsive layout*/
  @media (max-width:1024px) {
    .navbar{
        width: 120%;
@@ -123,7 +121,7 @@ img:hover {
  }
 
 
- @media (min-width:344px){
+ @media (min-width:340px){
    .grid_main{
      display: grid;
      grid-template-columns: auto;
@@ -137,6 +135,7 @@ img:hover {
 
 #wrapper{
     width: 75%;
+    height: 80%;
     margin-left: 12%;
  }
 
