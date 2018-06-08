@@ -33,7 +33,7 @@ p{
 
 /*Images main settings*/
  img{
-  width:49% ;
+  width:60% ;
   height:49% ;
   border:2px solid black;
 }
@@ -82,7 +82,7 @@ img:hover {
 
    .navbar a {
      float: left;
-     font-size: 16px;
+     font-size: 14px;
      color: white;
      text-align: center;
      padding: 14px 16px;
@@ -130,7 +130,7 @@ img:hover {
      grid-template-rows: auto auto auto;
    }
  img {
-   width:40%;
+   width:49%;
    height:40% ;
  }
 
@@ -142,4 +142,26 @@ img:hover {
 
 .navbar{
     width: 102.8%
+}
+
+
+@media (max-width:872px){
+  .grid_main{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+  }
+img {
+  width:90%;
+  height:40% ;
+}
+
+
+#wrapper{
+   width: 75%;
+   margin-left: 12%;
+}
+
+.navbar{
+   width: 105%
 }
