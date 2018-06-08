@@ -136,7 +136,8 @@ img:hover {
 
 
 #wrapper{
-    width: 75%;
+    width: 80%;
+    height:102%;
     margin-left: 12%;
  }
 
@@ -169,12 +170,13 @@ img {
 
 
 #wrapper{
-   width: 75%;
-   margin-left: 12%;
+   width: 95%;
+   margin-left: 3%;
 }
 
 .navbar{
-   width: 114%;
+   width: 110%;
    font-size:14px;
 
 }
+
