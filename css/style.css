@@ -174,5 +174,7 @@ img {
 }
 
 .navbar{
-   width: 114%
+   width: 114%;
+   font-size:14px;
+
 }
